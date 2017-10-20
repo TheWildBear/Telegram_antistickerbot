@@ -1,5 +1,5 @@
 # Telegram antistickerbot
-An Telegram anti sticker bot, deletes every sticker sent
+A Telegram anti sticker bot, deletes every sticker sent
 
 download the telebot api via
   <code>npm install -g telebot</code>
