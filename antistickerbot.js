@@ -10,9 +10,7 @@ const bot = new Telebot('your_token');
 bot.start();
 
 bot.on('sticker', (msg) => {
-	console.log("sticker!");
 	bot.deleteMessage(msg.chat.id, msg.message_id);
-	console.log(msg.chat.id + "b" + msg.message_id)
 });
 
 bot.on('/licence', (msg) => {
